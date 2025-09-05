@@ -1,4 +1,4 @@
-api_key = 'AIzaSyBOBKE6rrqZqy-tnJGm9An0uweh5e9WA-E'
+api_key = 'abcd'
 
 import googlemaps
 import pandas as pd
@@ -33,4 +33,5 @@ for idx, row in df.iterrows():
     time.sleep(0.1)  
 
 df.to_excel("list_of_schools_with_coordinates.xlsx", index=False)
+
 print("✅ Done! File saved as colleges_with_coordinates.xlsx")
